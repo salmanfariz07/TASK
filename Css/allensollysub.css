@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(3, 39, 61);
+}
+#a1{
+    text-align: center;
+    color: white;
+    animation-name: childanimation;
+    animation-duration: 15s;
+    position: absolute;
+    animation-timing-function:ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes childanimation {
+    /* from{ background-color: aquamarine;}
+    to{background-color: orangered;} */
+    0%{top: 0;left: 0;}
+    /* 10%{left: 130px;}
+    20%{top: 0;left: 230px;}
+    30%{top: 0;left: 330px;}
+    40%{top: 0;left: 430px;}
+    50%{top: 0;left: 530px;}
+    60%{top: 0;left: 630px;}
+    70%{top: 0;left: 730px;} */
+    80%{top: 0;left: 830px;}
+    90%{ color:rgb(3, 39, 61);top: 0;left: 930px;}
+    100%{ color:rgb(3, 39, 61);top: 0;left: 1350px;}
+}
+
+@media screen and (min-width:768px) and (max-width:998px){
+    .a{
+        height: 40px;
+        width: 100%;
+        background-color: rgb(66, 88, 8);
+    }
+    #a1{
+        text-align: center;
+        color: white;
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:768px){
+    .a{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(58, 5, 50);
+    }
+    #a1{
+        text-align: center;
+        color: white;
+        font-size: 50%;
+    }
+}
+.b{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.b2{
+    position: absolute;
+    left: 57%;
+    color: rgb(253, 253, 253);
+    top: 5%;
+}
+.b2 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+.b3{
+    position: absolute;
+    left: 67%;
+    color: rgb(255, 255, 255);
+    top: 5%;
+}
+.b3 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+.b4{
+    position: absolute;
+    left: 77%;
+    color: rgb(255, 255, 255);
+    top: 5%;
+}
+.b4 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+.b5{
+    position: absolute;
+    left: 85%; 
+    top: 5%;
+}
+.b5 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+.b6{
+    position: absolute;
+    left: 90%; 
+    top: 5%;
+}
+.b6 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+.b7{
+    position: absolute;
+    left: 95%;
+    top: 5%;
+}
+.b7 img{
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width:768px) and (max-width:998px){
+ 
+    .b2{
+        position: absolute;
+        left: 37%;
+        color: rgb(253, 253, 253);
+    }
+    .b2 img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+    .b3{
+        position: absolute;
+        left: 52%;
+        color: rgb(255, 255, 255);
+    }
+    .b3 img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+    .b4{
+        position: absolute;
+        left: 70%;
+        color: rgb(255, 255, 255);
+    }
+    .b4 img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+    .b5{
+        position: absolute;
+        left: 82%; 
+    }
+    .b5 img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+    .b6{
+        position: absolute;
+        left: 88%; 
+    }
+    .b6 img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+    .b7{
+        position: absolute;
+        left: 95%;
+        top: 8%;
+    }
+    .b7 img{
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+    }
+}
+@media screen and (min-width:200px) and (max-width:768px){
+   .bcut{
+    display: none;
+   } 
+
+.b{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(17, 17, 16);
+    position: absolute;
+}
+
+.b2{
+    position: absolute;
+    left: 45%;
+    color: rgb(253, 253, 253);
+    top: 5%;
+}
+.b2 img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.b3{
+    position: absolute;
+    left: 58%;
+    color: rgb(255, 255, 255);
+    top: 5%;
+}
+.b3 img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.b4{
+    position: absolute;
+    left: 74%;
+    color: rgb(255, 255, 255);
+    top: 5%;
+}
+.b4 img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.b5{
+    position: absolute;
+    left: 85%; 
+    top: 5%;
+}
+.b5 img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.b6{
+    position: absolute;
+    left: 90%; 
+    top: 5%;
+}
+.b6 img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+.b7{
+    position: absolute;
+    left:95%;
+    top: 5%;
+}
+.b7 img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+}
+}
+.c{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    position: sticky;
+    
+}
+.c1{
+    height: 70px;
+    width: 150px;
+}
+.c1 img{
+    height: 70px;
+    width: 200px;
+    object-fit: cover;
+    
+}
+.c2{
+    
+    position: absolute;
+    left: 20%;
+    font-size: 120%;
+    top: 18%;
+}
+.c3{
+    position: absolute;
+    left: 28%;
+    font-size: 120%;
+    top: 18%;
+}
+.c4{
+    position: absolute;
+    left: 39%;
+    font-size: 120%;
+    top: 18%;
+}
+.c5{
+    position: absolute;
+    left: 50%;
+    font-size: 120%;
+    top: 18%;
+}
+.c6{
+    position: absolute;
+    left: 62%;
+    font-size: 120%;
+    top: 18%;
+}
+.c7{
+    position: absolute;
+    left: 70%;
+    font-size: 120%;
+    color: red;
+    top: 18%;
+}
+.c8{
+    position: absolute;
+    left: 75%;
+    font-size: 120%;
+    color: red;
+    top: 18%;
+}
+@media screen and (min-width:768px) and (max-width:998px){
+    .c{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(47, 83, 22);
+        position: sticky;
+    }
+    .c1{
+        height: 70px;
+        width: 150px;
+    }
+    .c1 img{
+        height: 40px;
+        width: 150px;
+        object-fit: cover;
+        
+    }
+    .c2{
+        position: absolute;
+        left: 20%;
+        font-size: 90%;
+        top: 18%;
+    }
+    .c3{
+        position: absolute;
+        left: 28%;
+        font-size: 90%;
+        top: 18%;
+    }
+    .c4{
+        position: absolute;
+        left: 39%;
+        font-size: 90%;
+        top: 18%;
+    }
+    .c5{
+        position: absolute;
+        left: 50%;
+        font-size: 90%;
+        top: 18%;
+    }
+    .c6{
+        position: absolute;
+        left: 62%;
+        font-size: 90%;
+        top: 18%;
+    }
+    .c7{
+        position: absolute;
+        left: 70%;
+        font-size: 90%;
+        color: red;
+        top: 18%;
+    }
+    .c8{
+        position: absolute;
+        left: 75%;
+        font-size: 90%;
+        color: red;
+        height: 30px;
+        width: 100px; ;
+        top: 18%;
+    }
+
+}
+@media screen and (min-width:200px) and (max-width:768px){
+    .c{
+        height: 50px;
+        width: 100%;
+        background-color: rgb(209, 196, 12);
+        position: sticky;
+    }
+    .c1{
+        height: 70px;
+        width: 100px;
+    }
+    .c1 img{
+        height: 30px;
+        width: 100px;
+        object-fit: cover;
+        
+    }
+    .c2{
+        position: absolute;
+        left: 20%;
+        top: 18%;
+        font-size: 50%;
+        top: 18%;
+    }
+    .c3{
+        position: absolute;
+        left: 28%;
+        top: 18%;
+        font-size: 50%;
+        top: 18%;
+    }
+    .c4{
+        position: absolute;
+        left: 39%;
+        top: 18%;
+        font-size: 50%;
+        top: 18%;
+    }
+    .c5{
+        position: absolute;
+        left: 50%;
+        top: 18%;
+        font-size: 50%;
+        top: 18%;
+    }
+    .c6{
+        position: absolute;
+        left: 62%;
+        top: 18%;
+        font-size: 50%;
+        top: 18%;
+    }
+    .c7{
+        position: absolute;
+        left: 70%;
+        top: 18%;
+        font-size: 50%;
+        color: red;
+        top: 18%;
+    }
+    .c8{
+        position: absolute;
+        left: 75%;
+        top: 16.5%;
+        font-size: 50%;
+        color: red;
+        height: 30px;
+        width: 100px; ;
+        
+    }
+
+}
+.D img{
+    width: 100%;
+    object-fit: cover;
+}
+.E{
+    height: 600PX;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.E1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.E2{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    color: rgb(0, 0, 0);
+}
+h6{
+    text-align: center;
+    font-weight: 500;
+}
+#E22{
+    text-align: center;
+    font-size: 100%;
+    position: absolute;
+    top: 20%;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.E23{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    color: black;
+    font-weight: 400;
+}
+@media screen and (min-width:768px) and (max-width:998px){
+    .E{
+        height: 600PX;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+    #E1{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+    .E1 img{
+        height: 340px;
+        width: 410px;
+        object-fit: cover;
+    }
+    .E2{
+        height: 250px;
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        color: rgb(0, 0, 0);
+    }
+    h6{
+        text-align: center;
+        font-weight: 500;
+    }
+    #E22{
+        text-align: center;
+        font-size: 100%;
+        position: absolute;
+        top: 20%;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .E23{
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        color: black;
+        font-weight: 400;
+    }
+
+}
